@@ -1,0 +1,216 @@
+[
+    {
+        "name": "coffeecode/router",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/robsonvleite/router.git",
+            "reference": "29f73e12351a116e9bbb3f695595777a09e18077"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/robsonvleite/router/zipball/29f73e12351a116e9bbb3f695595777a09e18077",
+            "reference": "29f73e12351a116e9bbb3f695595777a09e18077",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.2"
+        },
+        "time": "2021-03-21T18:45:16+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "CoffeeCode\\Router\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Robson V. Leite",
+                "email": "cursos@upinside.com.br",
+                "role": "Developer"
+            }
+        ],
+        "description": "A classic CoffeeCode Router is easy, fast and extremely uncomplicated. Create and manage your routes in minutes!",
+        "homepage": "http://www.upinside.com.br",
+        "keywords": [
+            "Coffeecode",
+            "route",
+            "router",
+            "routes",
+            "upinside"
+        ],
+        "support": {
+            "issues": "https://github.com/robsonvleite/router/issues",
+            "source": "https://github.com/robsonvleite/router/tree/1.0.8"
+        }
+    },
+    {
+        "name": "digitalnature/php-ref",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@github.com:digitalnature/php-ref.git",
+            "reference": "2381f04d7ebcbce1072e86b98a0ccbad191f3290"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/digitalnature/php-ref/zipball/2381f04d7ebcbce1072e86b98a0ccbad191f3290",
+            "reference": "2381f04d7ebcbce1072e86b98a0ccbad191f3290",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2020-01-28T21:41:16+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "ref.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "A nicer print_r/var_dump alternative for PHP 5.3+",
+        "homepage": "https://github.com/digitalnature/php-ref",
+        "keywords": [
+            "debug",
+            "var_dump"
+        ]
+    },
+    {
+        "name": "league/plates",
+        "version": "v4.0.0-alpha",
+        "version_normalized": "4.0.0.0-alpha",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thephpleague/plates.git",
+            "reference": "f53f4c1fa4bf307d0f3858a348172ff4faf7669a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thephpleague/plates/zipball/f53f4c1fa4bf307d0f3858a348172ff4faf7669a",
+            "reference": "f53f4c1fa4bf307d0f3858a348172ff4faf7669a",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0"
+        },
+        "require-dev": {
+            "eloquent/phony-peridot": "^2.0",
+            "peridot-php/leo": "^1.6",
+            "peridot-php/peridot": "^1.19",
+            "peridot-php/peridot-code-coverage-reporters": "^3.0",
+            "squizlabs/php_codesniffer": "~1.5"
+        },
+        "time": "2018-01-31T07:20:23+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "League\\Plates\\": "src"
+            },
+            "files": [
+                "src/Template/match.php",
+                "src/Extension/Data/data.php",
+                "src/Extension/Path/path.php",
+                "src/Extension/RenderContext/func.php",
+                "src/Extension/RenderContext/render-context.php",
+                "src/Extension/LayoutSections/layout-sections.php",
+                "src/Extension/Folders/folders.php",
+                "src/Util/util.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jonathan Reinink",
+                "email": "jonathan@reinink.ca",
+                "role": "Developer"
+            },
+            {
+                "name": "RJ Garcia",
+                "email": "rj@bighead.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "Plates, the native PHP template system that's fast, easy to use and easy to extend.",
+        "homepage": "http://platesphp.com",
+        "keywords": [
+            "league",
+            "package",
+            "templates",
+            "templating",
+            "views"
+        ]
+    },
+    {
+        "name": "myclabs/php-enum",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/myclabs/php-enum.git",
+            "reference": "af4b5622434b2e129c28fab6d1a5bab436070e88"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/myclabs/php-enum/zipball/af4b5622434b2e129c28fab6d1a5bab436070e88",
+            "reference": "af4b5622434b2e129c28fab6d1a5bab436070e88",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "php": "^7.3 || ^8.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^9.5",
+            "squizlabs/php_codesniffer": "1.*",
+            "vimeo/psalm": "^4.6.2"
+        },
+        "time": "2021-03-02T13:37:12+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "MyCLabs\\Enum\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP Enum contributors",
+                "homepage": "https://github.com/myclabs/php-enum/graphs/contributors"
+            }
+        ],
+        "description": "PHP Enum implementation",
+        "homepage": "http://github.com/myclabs/php-enum",
+        "keywords": [
+            "enum"
+        ],
+        "support": {
+            "issues": "https://github.com/myclabs/php-enum/issues",
+            "source": "https://github.com/myclabs/php-enum/tree/master"
+        }
+    }
+]

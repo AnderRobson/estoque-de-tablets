@@ -1,0 +1,33 @@
+{
+    "name": "AnderRobson/estoque-de-tablets",
+    "description": "Projeto estoque de tablets - Faculdades QI",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ander Robson",
+            "email": "ander.robson1287@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Config\\" : "config/",
+            "Source\\" : "source/",
+            "Theme\\" : "theme/"
+        },
+        "files": [
+            "config/GlobalVariable.php",
+            "source/Library/Helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "coffeecode/router": "dev-master",
+        "myclabs/php-enum": "dev-master",
+        "ext-pdo": "*",
+        "league/plates": "^4.0@alpha"
+    },
+    "require-dev": {
+        "digitalnature/php-ref": "dev-master"
+    }
+}
